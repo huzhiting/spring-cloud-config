@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/huzhiting/spring-cloud-config
+          username: 18333617859@163.com
+          password: github88
+          search-paths: resources
+  application:
+    name: sc-config-git
+
+
+server:
+  port: 9090
+
+cn:
+  springcloud:
+    book:
+      config: I am the git configuration file from dev enviroment.
