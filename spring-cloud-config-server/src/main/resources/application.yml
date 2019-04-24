@@ -6,9 +6,9 @@ spring:
           uri: https://github.com/huzhiting/spring-cloud-config
           username: 18333617859@163.com
           password: github88
-          search-paths: resources
+          search-paths: config
   application:
-    name: sc-config-git
+    name: spring-cloud-config-server
 
 
 server:
