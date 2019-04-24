@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigClientController {
 
-    @Value("${config.env}") // git配置文件里的key
+    @Value("${env}") // git配置文件里的key
     String configEnv;
 
     @RequestMapping("/getConfigInfo")
